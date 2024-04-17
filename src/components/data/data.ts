@@ -2,7 +2,6 @@ import image1 from "../../assets/images/image1.avif";
 import image2 from "../../assets/images/image2.avif";
 import image3 from "../../assets/images/image3.avif";
 import image4 from "../../assets/images/image4.avif";
-import image5 from "../../assets/images/image5.avif";
 import image6 from "../../assets/images/image6.avif";
 import image7 from "../../assets/images/image7.avif";
 import image8 from "../../assets/images/image8.avif";

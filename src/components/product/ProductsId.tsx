@@ -1,8 +1,6 @@
 import { useParams } from "react-router";
-import { dataImage, imageUrl } from "../data/data";
+import { dataImage } from "../data/data";
 import { IoIosStar } from "react-icons/io";
-import { FaLocationArrow } from "react-icons/fa";
-import { Item } from "@radix-ui/react-accordion";
 import { MdOutlineGpsFixed } from "react-icons/md";
 
 interface Product {

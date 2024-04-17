@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareGithub, FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const dataGeneral = [

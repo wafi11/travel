@@ -1,4 +1,4 @@
-const dataNav = [
+export const dataNav = [
   {
     title: "Home",
     href: "/",

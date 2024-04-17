@@ -3,11 +3,6 @@ import { BiSearch } from "react-icons/bi";
 
 const InputSearch = () => {
   const [search, setSearch] = useState<string>("");
-  console.log(search);
-
-  // const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
-  //   e.preventDefault();
-  // };
   return (
     <div className="hidden md:flex items-center justify-between">
       <div className="flex ">
