@@ -4,7 +4,7 @@ import { IoIosStar } from "react-icons/io";
 import { MdOutlineGpsFixed } from "react-icons/md";
 
 interface Product {
-  id: number;
+  id: string;
   title: string;
   description: string;
   image: string;
@@ -16,7 +16,6 @@ interface Product {
 
 const ProductsId = () => {
   const { id } = useParams();
-  console.log(id);
   const product = dataImage.find((Item) => Item.id.toString() === id);
   let relatedProducts: Product[] = [];
   if (product) {
@@ -29,9 +28,7 @@ const ProductsId = () => {
       )
     );
   }
-  console.log(relatedProducts);
 
-  console.log(relatedProducts);
   return (
     <div className="max-w-7xl h-full pt-24 mx-auto">
       <div className="container flex flex-col  py-5">
@@ -48,7 +45,9 @@ const ProductsId = () => {
             className="w-[350px] h-[350px] object-cover "
           />
           <div className="grid grid-cols-1 gap-4 px-4 ">
-            <h2 className="text-gray-300 w-[500px]">{product?.description}</h2>
+            <h2 className="text-gray-300 w-full lg:w-[500px]">
+              {product?.description}
+            </h2>
 
             <p className=" flex  justify-between items-center text-center">
               <p className="flex text-yellow-500 px-2">
@@ -69,7 +68,9 @@ const ProductsId = () => {
                   </>
                 )}
               </p>
-              <span className="flex items-center gap-5 text-neutral-200 text-lg">
+              <span
+                className="flex items-center gap-5 text-neutral-200 text-sm sm:text-sm md:text-lg
+                 ">
                 <MdOutlineGpsFixed className="text-emerald-700" />
                 {product?.location}
               </span>
@@ -92,11 +93,13 @@ const ProductsId = () => {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {relatedProducts.map((item) => (
                 <div key={item.id} className="grid justify-center items-center">
-                  <img
-                    src={item.image}
-                    alt="../"
-                    className="w-[300px] h-[200px]  object-cover"
-                  />
+                  <a href={item.id}>
+                    <img
+                      src={item.image}
+                      alt="../"
+                      className="w-[300px] h-[200px]  object-cover"
+                    />
+                  </a>
                   <div className="flex justify-between items-center p-2">
                     <p className="text-md font-medium text-gray-200">
                       {item.title}

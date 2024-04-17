@@ -9,11 +9,13 @@ const Blog = () => {
         alt="../"
         className="w-full h-screen object-cover brightness-50"
       />
-      <div className="justify-center items-center w-full flex flex-col absolute top-[40%] ">
-        <h1 className=" text-slate-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl  font-bold tracking-widest">
+      <div className="justify-center items-center w-full flex flex-col absolute top-[35%] lg:top-[40%] px-5">
+        <h1
+          className=" text-slate-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl  
+        font-bold tracking-wide lg:tracking-widest text-center">
           Welcome To Blog NextTravel
         </h1>
-        <p className=" text-slate-400/95 py-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+        <p className="text-center text-slate-400/95 py-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
           NextTravel provides information about holidays, tours, etc
         </p>
         <button className="text-center text-gray-300 text-lg bg-emerald-600 p-2 px-4 mt-2 w-[200px] rounded-md ">

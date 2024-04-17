@@ -10,7 +10,7 @@ import image10 from "../../assets/images/image10.avif";
 
 export const dataImage = [
   {
-    id: 1,
+    id: "1",
     title: "Hotel Nordurland ",
     category: ["hotels"],
     image: image1,
@@ -21,7 +21,7 @@ export const dataImage = [
     price: "499.000",
   },
   {
-    id: 2,
+    id: "2",
     title: "Hotel Ranga",
     category: ["hotels"],
     image: image2,
@@ -32,7 +32,7 @@ export const dataImage = [
     price: "399.000",
   },
   {
-    id: 3,
+    id: "3",
     title: "Langkawi Sky Bridge",
     category: ["luxe"],
     image: image3,
@@ -43,7 +43,7 @@ export const dataImage = [
     price: "699.000",
   },
   {
-    id: 4,
+    id: "4",
     title: "Grand Mogador City Center",
     category: ["pool"],
     image: image4,
@@ -54,7 +54,7 @@ export const dataImage = [
     price: "1.920.000",
   },
   {
-    id: 5,
+    id: "5",
     title: "Kuta Beach",
     category: ["beach"],
     location: "Bali,Indonesia",
@@ -66,7 +66,7 @@ export const dataImage = [
     price: "500.000",
   },
   {
-    id: 6,
+    id: "6",
     title: "AYANA Resort and Spa Bali",
     category: ["beach", "surfing", "luxe"],
     image: image6,
@@ -77,7 +77,7 @@ export const dataImage = [
     price: "900.000",
   },
   {
-    id: 7,
+    id: "7",
     title: "Villa Kimaya, Berawa",
     category: ["luxe"],
     location: "Bali, Indonesia",
@@ -88,7 +88,7 @@ export const dataImage = [
     price: "599.000",
   },
   {
-    id: 8,
+    id: "8",
     title: "Hotel Indonesia Kempinski",
     category: ["luxe", "hotels", "trending"],
     image: image8,
@@ -99,7 +99,7 @@ export const dataImage = [
     price: "699.000",
   },
   {
-    id: 9,
+    id: "9",
     title: "Fairmont Jakarta",
     category: ["hotels", "luxe", "amazingView"],
     image: image9,
@@ -110,7 +110,7 @@ export const dataImage = [
     price: "799.000",
   },
   {
-    id: 10,
+    id: "10",
     title: "Villa Kayu Raja",
     category: ["omg", "surfing", "amazingView", "beach"],
     location: "Seminyak,Bali",

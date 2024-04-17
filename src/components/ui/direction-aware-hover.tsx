@@ -81,6 +81,7 @@ export const DirectionAwareHover = ({
             }}>
             <img
               alt="image"
+              loading="lazy"
               className={cn(
                 "h-full w-full object-cover scale-[1.15]",
                 imageClassName
