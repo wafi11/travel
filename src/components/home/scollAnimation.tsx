@@ -64,13 +64,11 @@ const content = [
 export function ScrollAnimation() {
   return (
     <div className="p-10 justify-center items-center">
-      <div className="flex flex-col justify-center items-center gap-3 ">
-        <h1 className="text-emerald-500 font-bold text-3xl tracking-widest">
+      <div className="flex flex-col justify-center items-center gap-3 py-10">
+        <h1 className="text-emerald-500 font-bold text-3xl tracking-widest text-center">
           Popular Destinatios
         </h1>
-        <p className="text-md text-gray-200 py-4">
-          Favorite Place in my Website
-        </p>
+        <p className="text-md text-gray-200 ">Favorite Place in my Website</p>
       </div>
       <StickyScroll content={content} />
     </div>

@@ -10,9 +10,14 @@ const Grid = () => {
       <p className="py-4 text-md font-medium text-gray-300">
         Here is a location for reference
       </p>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 py-4 gap-2 md:gap-4 justify-center items-center">
+      <div
+        className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 py-4 gap-2 md:gap-4
+       justify-center items-center">
         {imageUrl.map((img) => (
-          <DirectionAwareHover imageUrl={img.image} key={img.image}>
+          <DirectionAwareHover
+            imageUrl={img.image}
+            key={img.image}
+            className="justify-center items-center">
             <p className="font-bold text-xl">{img.location}</p>
             <p className="font-normal text-sm">{img.cost}</p>
           </DirectionAwareHover>

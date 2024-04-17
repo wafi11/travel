@@ -125,21 +125,21 @@ export const dataImage = [
 export const imageUrl = [
   {
     image:
-      "https://plus.unsplash.com/premium_photo-1697215175168-c363c30539bb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    location: "Mountains, indonesia",
-    cost: "$1999 / night",
+      "https://images.unsplash.com/photo-1669394249149-29f60dda8f10?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    location: "Bromo Mountains, indonesia",
+    cost: "",
   },
   {
     image:
       "https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    location: "Mountains, Iran",
-    cost: "$5999 / night",
+    location: "Reserve of Canada",
+    cost: "",
   },
   {
     image:
       "https://plus.unsplash.com/premium_photo-1675826774815-35b8a48ddc2c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    location: "Sea, Bali",
-    cost: "$3999 / night",
+    location: "Kutai Beach, Bali",
+    cost: "",
   },
 ];
 
