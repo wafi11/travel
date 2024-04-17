@@ -78,6 +78,7 @@ export const ImagesSliderDemo: React.FC<ImageSliderProps> = ({ imageList }) => {
               <React.StrictMode key={item.id}>
                 <img
                   src={item.img}
+                  alt="../"
                   className={`${
                     item.id === currentIndex
                       ? "scale-125 absolute shadow-2xl  rounded-xl  duration-300"
